@@ -12,17 +12,18 @@ apache-beam==2.22.0
 dill==0.3.1.1
 
 pytest==5.3.5
-ffmpeg==4.2.3
+#ffmpeg==4.2.3 # invalid version
+ffmpeg
 pymongo==3.1.0
 
 ### Begin TF1 required libraries
-tensorflow-gpu==1.15.0
+# tensorflow-gpu==1.15.0 # use TF2 instead
 ### End TF1 required libraries
 
 ### Begin Pytorch required libraries
 pytorch==1.5
 torchvision==0.6.0
-cudatoolkit=10.1
+cudatoolkit==10.1
 ### End Pytorch required libraries
 
 ### Begin TF2 required libraries
